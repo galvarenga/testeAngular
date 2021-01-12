@@ -1,50 +1,304 @@
 {
-    "listaProjetos": [
-        "AUTOM_LINK",
-        "PRJ00002_ENT00002",
-        "PRJ00007149_ENT00003722",
-        "PRJ00014218_ENT00012715",
-        "PRJ00015152_ENT00009731",
-        "PRJ00017982_ENT00010601",
-        "PRJ00023549_ENT00009054",
-        "PRJ00023549_ENT00009055",
-        "PRJ00023549_ENT00010553",
-        "PRJ00024898_ENT00013553",
-        "PRJ00024898_ENT00013643",
-        "PRJ00024898_ENT00013946",
-        "PRJ00025132_ENT00008221",
-        "PRJ00025530_ENT00012380",
-        "PRJ00026192_ENT00011350",
-        "PRJ00028432_ENT00012119",
-        "PRJ00028656_ENT00011060",
-        "PRJ00030445_ENT00010745",
-        "PRJ00035015_ENT00010939",
-        "PRJ00035080_ENT00012046",
-        "PRJ00035347_ENT00013119",
-        "PRJ00042109_ENT00013404",
-        "PRJ00042403_ENT00013204"
-    ],
-    "listaSistema": [
-        "ABC / ABD",
-        "API",
-        "APP CO DIGITAL",
-        "ARBOR",
-        "BLL",
-        "CBILL",
-        "CCURE-SAFE",
-        "CDI",
-        "CLICK",
-        "CLICK - MUA",
-        "COMPLY"
-    ],
-    "listaFornecedor": [
-        "ACCENTURE",
-        "CAPGEMINI",
-        "IBM",
-        "LINK CONSULTING",
-        "OI",
-        "SONDA IT",
-        "TRESCON",
-        "TRIAD SYSTEMS"
-    ]
+	"dadosFinanceiros":[
+		{
+			"ano": 2018,
+			"nomeEstado": "Rio de Janeiro",
+			"dadosEstado": [
+				{
+					"trimestre": 1,
+					"totalReceita": 100.0,
+					"totalDespesa": 50.0,
+					"meta": 1.1
+				},
+				{
+					"trimestre": 2,
+					"totalReceita": 90.0,
+					"totalDespesa": 60.0,
+					"meta": 0.4
+				},
+				{
+					"trimestre": 3,
+					"totalReceita": 80.0,
+					"totalDespesa": 50.0,
+					"meta": 1.0
+				},
+				{
+					"trimestre": 4,
+					"totalReceita": 70.0,
+					"totalDespesa": 30.0,
+					"meta": 0.9
+				}
+			]
+		},
+		{
+			"ano": 2019,
+			"nomeEstado": "Rio de Janeiro",
+			"dadosEstado": [
+				{
+					"trimestre": 1,
+					"totalReceita": 70.0,
+					"totalDespesa": 40.0,
+					"meta": 0.7
+				},
+				{
+					"trimestre": 2,
+					"totalReceita": 100.0,
+					"totalDespesa": 40.0,
+					"meta": 1.0
+				},
+				{
+					"trimestre": 3,
+					"totalReceita": 80.0,
+					"totalDespesa": 80.0,
+					"meta": 0.3
+				},
+				{
+					"trimestre": 4,
+					"totalReceita": 60.0,
+					"totalDespesa": 40.0,
+					"meta": 0.8
+				}
+			]
+		},
+		{
+			"ano": 2019,
+			"nomeEstado": "Rio de Janeiro",
+			"dadosEstado": [
+				{
+					"trimestre": 1,
+					"totalReceita": 60.0,
+					"totalDespesa": 40.0,
+					"meta": 0.6
+				},
+				{
+					"trimestre": 2,
+					"totalReceita": 50.0,
+					"totalDespesa": 20.0,
+					"meta": 0.5
+				},
+				{
+					"trimestre": 3,
+					"totalReceita": 20.0,
+					"totalDespesa": 20.0,
+					"meta": 0.2
+				},
+				{
+					"trimestre": 4,
+					"totalReceita": 15.0,
+					"totalDespesa": 20.0,
+					"meta": 0.1
+				}
+			]
+		},
+		{
+			"ano": 2018,
+			"nomeEstado": "Sao Paulo",
+			"dadosEstado": [
+				{
+					"trimestre": 1,
+					"totalReceita": 150.0,
+					"totalDespesa": 60.0,
+					"meta": 1.5
+				},
+				{
+					"trimestre": 2,
+					"totalReceita": 110.0,
+					"totalDespesa": 50.0,
+					"meta": 1.2
+				},
+				{
+					"trimestre": 3,
+					"totalReceita": 100.0,
+					"totalDespesa": 50.0,
+					"meta": 1.1
+				},
+				{
+					"trimestre": 4,
+					"totalReceita": 70.0,
+					"totalDespesa": 40.0,
+					"meta": 0.8
+				}
+			]
+		},
+		{
+			"ano": 2019,
+			"nomeEstado": "Sao Paulo",
+			"dadosEstado": [
+				{
+					"trimestre": 1,
+					"totalReceita": 140.0,
+					"totalDespesa": 70.0,
+					"meta": 1.3
+				},
+				{
+					"trimestre": 2,
+					"totalReceita": 100.0,
+					"totalDespesa": 50.0,
+					"meta": 1.0
+				},
+				{
+					"trimestre": 3,
+					"totalReceita": 100.0,
+					"totalDespesa": 50.0,
+					"meta": 1.0
+				},
+				{
+					"trimestre": 4,
+					"totalReceita": 60.0,
+					"totalDespesa": 45.0,
+					"meta": 0.49
+				}
+			]
+		},
+		{
+			"ano": 2020,
+			"nomeEstado": "Sao Paulo",
+			"dadosEstado": [
+				{
+					"trimestre": 1,
+					"totalReceita": 140.0,
+					"totalDespesa": 60.0,
+					"meta": 1.0
+				},
+				{
+					"trimestre": 2,
+					"totalReceita": 60.0,
+					"totalDespesa": 50.0,
+					"meta": 0.4
+				},
+				{
+					"trimestre": 3,
+					"totalReceita": 40.0,
+					"totalDespesa": 50.0,
+					"meta": 0.2
+				},
+				{
+					"trimestre": 4,
+					"totalReceita": 10.0,
+					"totalDespesa": 40.0,
+					"meta": 0.05
+				}
+			]
+		},
+		{
+			"ano": 2018,
+			"nomeEstado": "Minas Gerais",
+			"dadosEstado": [
+				{
+					"trimestre": 1,
+					"totalReceita": 100.0,
+					"totalDespesa": 50.0,
+					"meta": 1.0
+				},
+				{
+					"trimestre": 2,
+					"totalReceita": 100.0,
+					"totalDespesa": 50.0,
+					"meta": 1.0
+				},
+				{
+					"trimestre": 3,
+					"totalReceita": 100.0,
+					"totalDespesa": 50.0,
+					"meta": 1.0
+				},
+				{
+					"trimestre": 4,
+					"totalReceita": 90.0,
+					"totalDespesa": 45.0,
+					"meta": 0.9
+				}
+			]
+		},
+		{
+			"ano": 2019,
+			"nomeEstado": "Minas Gerais",
+			"dadosEstado": [
+				{
+					"trimestre": 1,
+					"totalReceita": 30.0,
+					"totalDespesa": 50.0,
+					"meta": 0.3
+				},
+				{
+					"trimestre": 2,
+					"totalReceita": 80.0,
+					"totalDespesa": 50.0,
+					"meta": 0.8
+				},
+				{
+					"trimestre": 3,
+					"totalReceita": 80.0,
+					"totalDespesa": 60.0,
+					"meta": 0.7
+				},
+				{
+					"trimestre": 4,
+					"totalReceita": 65.0,
+					"totalDespesa": 45.0,
+					"meta": 0.55
+				}
+			]
+		},
+		{
+			"ano": 2020,
+			"nomeEstado": "Minas Gerais",
+			"dadosEstado": [
+				{
+					"trimestre": 1,
+					"totalReceita": 20.0,
+					"totalDespesa": 30.0,
+					"meta": 0.4
+				},
+				{
+					"trimestre": 2,
+					"totalReceita": 40.0,
+					"totalDespesa": 20.0,
+					"meta": 0.6
+				},
+				{
+					"trimestre": 3,
+					"totalReceita": 30.0,
+					"totalDespesa": 50.0,
+					"meta": 0.2
+				},
+				{
+					"trimestre": 4,
+					"totalReceita": 180.0,
+					"totalDespesa": 40.0,
+					"meta": 2.0
+				}
+			]
+		},
+		{
+			"ano": 2020,
+			"nomeEstado": "Espirito Santos",
+			"dadosEstado": [
+				{
+					"trimestre": 1,
+					"totalReceita": 20.0,
+					"totalDespesa": 10.0,
+					"meta": 0.6
+				},
+				{
+					"trimestre": 2,
+					"totalReceita": 15.0,
+					"totalDespesa": 15.0,
+					"meta": 0.4
+				},
+				{
+					"trimestre": 3,
+					"totalReceita": 12.0,
+					"totalDespesa": 15.0,
+					"meta": 0.3
+				},
+				{
+					"trimestre": 4,
+					"totalReceita": 10.0,
+					"totalDespesa": 15.0,
+					"meta": 0.2
+				}
+			]
+		}
+	]
 }
